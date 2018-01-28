@@ -1760,7 +1760,6 @@ var Select$1 = function (_React$Component) {
 					disabled: _this7.props.disabled,
 					key: 'hidden.' + index,
 					name: _this7.props.name,
-					ref: 'value' + index,
 					type: 'hidden',
 					value: stringifyValue(item[_this7.props.valueKey])
 				});
